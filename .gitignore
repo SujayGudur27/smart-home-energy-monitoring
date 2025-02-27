@@ -1,1 +1,35 @@
 touch .gitignore
+# Ignore Maven and Gradle build files
+target/
+build/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.iml
+.gradle
+/.mvn/
+!**/src/main/**
+
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+.env
+package-lock.json
+yarn.lock
+
+# IntelliJ IDEA and Eclipse files
+.idea/
+*.iws
+*.ipr
+*.iml
+.classpath
+.project
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
